@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-image: url(new.png);
+    background-position: center;
+    
+    background-size: cover;
+    
+    height: 100vh;
+    
+}
+.navbar{
+    height: 80px;
+    width: 200px;
+    background: none;
+}
+    .logo{
+    width: 140px;
+    height: auto;
+    padding: 20px,20px;
+
+    }
+    
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            display: flex;
+            gap: 50px;
+    
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            
+            
+            
+        }
+        
+        nav ul li a:hover{
+            
+            text-decoration: underline;
+            background:red;
+            border-radius: 1.5px;
+            transition: 0.3s;
+        }
+        
+            
+
+
+        
+        .wrapper .center{
+            position: absolute;
+            top: 30%;
+            left: 48%;
+            transform: translate(-50%, -50%);
+            font-family: sans-serif;
+            user-select: none;
+            text-align: center;
+        }
+        .center h1{
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            width: 900px;
+        }
+        .center{
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            width: 880px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .center .button{
+            margin: 10px  280px;
+        }
+        .button button{
+            height: 40px;
+            width: 150px;
+            font-size: 14px;
+            color: darkblue;
+            border: 1px solid rebeccapurple;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: 0.4s;
+            background: white;
+        }
+        .button button:hover{
+            background: gray;
+        }
+        
+
+
